@@ -37,15 +37,16 @@ nav span {
 a {
   color: black;
 }
-
+/* borders
 div {
   border: 1px solid black;
 }
+*/
 .main_content {
   display: flex;
   padding-top: 120px;
-  width: 1240px;
-  margin: 0 auto;
+  width: 1280px;
+  margin: 0 auto 80px auto;
 
 }
 .column {
@@ -70,6 +71,7 @@ div {
   font-size: 30px;
   color: white;
   text-align: center;
+  margin-top: 15px;
 }
 .topstory .image-content {
   background-image: url("../images/img-story-main.png");
@@ -79,6 +81,7 @@ div {
   font-family: Georgia;
   font-size: 17px;
   color: black;
+  margin-top: 16px;
 }
 .fall-cancelled.image-content {
   background-image: url("../images/img-story-2.png");
@@ -91,4 +94,14 @@ div {
 }
 .stories {
   display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+.stories .text-content {
+  height: 250px;
+}
+.story {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
 }
